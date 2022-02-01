@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+  background-color:rgb(70, 142, 236);
+  font:normal 16px Arial, Helvetica, sans-serif;
+}
+
+header{
+  text-align:center;
+  color:black;
+  font-weight:bolder;
+}
+
+section {
+  background-color:white;
+  padding:15px;
+  width:500px;
+  height:300px;
+  margin:auto;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+  border-radius:10px;
+}
+
+div {
+  padding:8px;
+  text-align:center;
+}
+footer{
+  font-style:italic;
+  text-align:center;
+  padding-top:4px;
+}
+
+footer a {
+  text-decoration:none;
+  color:black;
+}
+
+footer a:hover{
+  text-decoration:underline;
+}
