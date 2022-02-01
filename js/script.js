@@ -6,8 +6,9 @@ function carregar (){
   var data = new Date();
   var hora = data.getHours();
   var minuto = data.getMinutes();
+  var segundo = data.getSeconds();
 
-  mensagem.innerHTML=`Agora são ${hora} horas e ${minuto} minutos`;
+  mensagem.innerHTML=`Agora são ${hora} horas, ${minuto} minutos e ${segundo} segundos`;
 
   if (hora >=0 && hora <=12){
     //carrega a foto da manhã
@@ -22,6 +23,6 @@ function carregar (){
   else {
     //carrega a foto da noite
     img.src="imagens/noite.png";
-    window.document.body.style.background="#004250";
+    window.document.body.style.background="rgb(6, 87, 104)";
   }
 }
